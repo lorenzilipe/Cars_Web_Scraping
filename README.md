@@ -1,5 +1,12 @@
 # Cars - Web Scraping
 
+## Files
+- `add_to_car_history.py` File to be run every night. Calls web scraping function and adds to main database.
+- `scrape_cars.py` Contains function which scrapes a single Cars.com page
+- `analysis.ipynb` Jupyter notebook containing analysis made so far.
+
+## Description
+
 Used car prices have gone through the roof with the pandemic and the war in Ukraine, which has made getting a decent replacement for my recently-totaled (by someone else) '06 Prius quite challenging.
 
 I've spent a lot of time in the last couple of months on Cars.com looking for a deal that would neither break my bank nor have a high probability of becoming a headache in a year - to no avail. I did some research and it looks like prices might begin to decline sometime soon, although no one can tell for certain.
