@@ -1,4 +1,4 @@
-# Cars - Web Scraping
+# Cars.com - Web Scraping
 
 Web scraping a few pages of Cars.com every day to keep track of trends in prices.
 
