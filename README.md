@@ -1,5 +1,7 @@
 # Cars - Web Scraping
 
+Web scraping a few pages of Cars.com every day to keep track of trends in prices.
+
 ## Files
 - `add_to_car_history.py` File to be run every night. Calls web scraping function and adds to main database.
 - `scrape_cars.py` Contains function which scrapes a single Cars.com page
