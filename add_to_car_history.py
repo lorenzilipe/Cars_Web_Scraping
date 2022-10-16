@@ -15,7 +15,7 @@ mazda_query = '?_utf8=%E2%9C%93&body_style_slugs[]=hatchback&home_delivery=&list
 queries = [civic_query, prius_query, camry_query, mazda_query]
 
 # Read in current cars histories
-cars_history = pd.read_csv('/Users/felipelorenzi/Documents/Cars/cars_history.csv')
+cars_history = pd.read_csv('/Users/felipelorenzi/Documents/GitHub/Cars_Web_Scraping/cars_history.csv')
 
 # Scrape for new info and append to cars history
 for query_url in queries:
@@ -23,4 +23,4 @@ for query_url in queries:
     cars_history = pd.concat([cars_history, current_cars]).drop_duplicates()
 
 # Save new cars history
-cars_history.to_csv('/Users/felipelorenzi/Documents/Cars/cars_history.csv', index = False)
+cars_history.to_csv('/Users/felipelorenzi/Documents/GitHub/Cars_Web_Scraping/cars_history.csv', index = False)
